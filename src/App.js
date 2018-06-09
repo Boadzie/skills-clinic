@@ -5,6 +5,8 @@ import Section from './components/Section/Section';
 import Card from './components/Card/Card';
 import Footer from './components/Footer/Footer';
 
+import Routes from './routes';
+
 const App = () => {
     return (
         <div>
