@@ -44,22 +44,21 @@ section::after {
 
 .title {
   margin-top: 0;
-  text-align: left;
+  text-align: center;
 }
 
-<<<<<<< HEAD:src/components/Card/Card.css
 p.text {
     padding-bottom: 10px;
     text-align: center;
-=======
-.text {
-  padding-bottom: 10px;
->>>>>>> content:src/component/Card.css
 }
 
 .description {
   background-color: #fff;
-  padding: 5px 0px;
+  padding: 10px 10px;
+}
+
+.description p {
+  width: 100%;
 }
 
 .card-btn {
@@ -81,7 +80,4 @@ p.text {
   background-color: #3eac42;
   color: #000;
 }
-
-.text {
-  text-align: left;
-}
+     
