@@ -58,6 +58,12 @@ footer p {
     padding: 15px;
 }
 
+footer::before {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 footer::after {
     content: "";
     clear: both;
