@@ -1,22 +1,19 @@
-import React from 'react';
-import './Section.css';
+import React from "react";
+import "./Section.css";
 
 const Section = () => {
-    return (
-        <section className="section-century-skills">
-            <div className="row">
-            <h2>What is 21st Century Skills?</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            </div>
-        </section>
-    );
-}
+  return (
+    <section className="section-century-skills">
+      <div className="row">
+        <h2>What is 21st Century Skills Clinic?</h2>
+        <p>
+          21st Century Skills Clinic is an online portal that helps people to
+          Discover, Develop and Use their potentials to serve their communities
+          and the world.
+        </p>
+      </div>
+    </section>
+  );
+};
 
 export default Section;
